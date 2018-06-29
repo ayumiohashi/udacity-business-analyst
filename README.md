@@ -4,7 +4,7 @@
 \# | Description
 ------------ | -------------
 01 | Predict Sales for a Catalog Launch
-02 | Select the Location of a New Pet Store
+02 | Select the Location of a New Pet Store (WIP)
 03 | Predict Loan Default Risk
 04 | A/B Text a New Menu Launch
 05 | Forecast Video Game Demand

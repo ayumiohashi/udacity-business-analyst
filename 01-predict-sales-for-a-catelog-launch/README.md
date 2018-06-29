@@ -1,6 +1,8 @@
 ## Predict Sales for a Catalog Launch
 
-A home-goods manufacturer wants to predict expected profits from a catalog launch. Apply a framework to work through the problem and build a linear
+A home-goods manufacturer wants to predict expected profits from a catalog launch.
+
+Apply a framework to work through the problem and build a linear
 regression model to provide results and a recommendation.
 
 ### Business Problem

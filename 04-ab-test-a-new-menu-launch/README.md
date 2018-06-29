@@ -28,5 +28,5 @@ You have been able to gather three data files to use for your analysis:
 - round-roaster-stores.csv - list of all round roaster stores
 - treatment-stores.csv - list of the 10 stores that were used as test markets.
 
-### Questions to answer
-- recommendation on whether the chain should introduce the new menu
+### Tasks
+- Recommend whether the chain should introduce the new menu

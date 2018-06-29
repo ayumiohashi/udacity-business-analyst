@@ -21,6 +21,6 @@ You’ve been asked to predict the expected profit from these 250 new customers.
 - customers.xlsx - dataset includes information on about 2,300 last year's customers.
 - mailinglist.xlsx - dataset includes information on 250 customers. This is the list of customers that the company would send a catalog to.
 
-### Questions to answer
+### Tasks
 - Predicted or expected profit
 - Recommendation to whether the company should send the catalog or not.

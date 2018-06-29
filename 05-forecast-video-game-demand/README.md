@@ -9,7 +9,7 @@ You recently started working for a company as a supply chain analyst that create
 You’ve been asked to provide a forecast for the next 4 months of sales and report your findings.
 
 ### Data
-- round-roasters-transactions.zip - Monthly Sales
+- monthly-sales.xlsx - Monthly Sales
 
 ### Tasks
 - Provide a forecast for the next 4 months of sales and report the findings.

@@ -18,6 +18,5 @@ You have the following information to work with:
 - credit-data.xlsx - all past loan applications
 - customers.xlsx - list of customers who applied for a new loan
 
-
-### Questions to answer
-- Recommendation on which loan applicants the bank should lend to
+### Tasks
+- Recommend which loan applicants the bank should lend to

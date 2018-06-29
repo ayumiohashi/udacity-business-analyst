@@ -22,5 +22,5 @@ Your manager has given you the following information to work with:
 - population.csv - Population data
 - pawdacity-monthly-sales.csv - Pawdacity monthly sales
 
-### Questions to answer
+### Tasks
 - Recommend the city for Pawdacity’s newest store, based on predicted yearly sales.

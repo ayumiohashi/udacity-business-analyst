@@ -1,0 +1,554 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="11.7">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="102" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\ayumi\Documents\git\udacity-business-analyst\04-ab-test-a-new-menu-launch\data\treatment-stores.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>treatment-stores.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="StoreID" size="254" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\04-ab-test-a-new-menu-launch\data\treatment-stores.csv" type="V_String" />
+            <Field name="Sq_Ft" size="254" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\04-ab-test-a-new-menu-launch\data\treatment-stores.csv" type="V_String" />
+            <Field name="AvgMonthSales" size="254" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\04-ab-test-a-new-menu-launch\data\treatment-stores.csv" type="V_String" />
+            <Field name="Phone Number" size="254" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\04-ab-test-a-new-menu-launch\data\treatment-stores.csv" type="V_String" />
+            <Field name="Street Combined" size="254" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\04-ab-test-a-new-menu-launch\data\treatment-stores.csv" type="V_String" />
+            <Field name="Street 1" size="254" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\04-ab-test-a-new-menu-launch\data\treatment-stores.csv" type="V_String" />
+            <Field name="Street 2" size="254" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\04-ab-test-a-new-menu-launch\data\treatment-stores.csv" type="V_String" />
+            <Field name="Street 3" size="254" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\04-ab-test-a-new-menu-launch\data\treatment-stores.csv" type="V_String" />
+            <Field name="City" size="254" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\04-ab-test-a-new-menu-launch\data\treatment-stores.csv" type="V_String" />
+            <Field name="Postal Code" size="254" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\04-ab-test-a-new-menu-launch\data\treatment-stores.csv" type="V_String" />
+            <Field name="Region" size="254" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\04-ab-test-a-new-menu-launch\data\treatment-stores.csv" type="V_String" />
+            <Field name="Country" size="254" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\04-ab-test-a-new-menu-launch\data\treatment-stores.csv" type="V_String" />
+            <Field name="Coordinates" size="254" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\04-ab-test-a-new-menu-launch\data\treatment-stores.csv" type="V_String" />
+            <Field name="Latitude" size="254" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\04-ab-test-a-new-menu-launch\data\treatment-stores.csv" type="V_String" />
+            <Field name="Longitude" size="254" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\04-ab-test-a-new-menu-launch\data\treatment-stores.csv" type="V_String" />
+            <Field name="Timezone" size="254" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\04-ab-test-a-new-menu-launch\data\treatment-stores.csv" type="V_String" />
+            <Field name="Current Timezone Offset" size="254" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\04-ab-test-a-new-menu-launch\data\treatment-stores.csv" type="V_String" />
+            <Field name="Olson Timezone" size="254" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\04-ab-test-a-new-menu-launch\data\treatment-stores.csv" type="V_String" />
+            <Field name="Name" size="254" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\04-ab-test-a-new-menu-launch\data\treatment-stores.csv" type="V_String" />
+            <Field name="Right_State" size="254" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\04-ab-test-a-new-menu-launch\data\treatment-stores.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="198" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="1" field="TreatmentStore" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[TreatmentStore = 1
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="294" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Sq_Ft" selected="True" type="Int16" size="2" />
+            <SelectField field="AvgMonthSales" selected="True" type="Double" size="8" />
+            <SelectField field="Phone Number" selected="False" />
+            <SelectField field="Street Combined" selected="False" />
+            <SelectField field="Street 1" selected="False" />
+            <SelectField field="Street 2" selected="False" />
+            <SelectField field="Street 3" selected="False" />
+            <SelectField field="City" selected="False" />
+            <SelectField field="Postal Code" selected="False" />
+            <SelectField field="Country" selected="False" />
+            <SelectField field="Coordinates" selected="False" />
+            <SelectField field="Latitude" selected="False" />
+            <SelectField field="Longitude" selected="False" />
+            <SelectField field="Timezone" selected="False" />
+            <SelectField field="Current Timezone Offset" selected="False" />
+            <SelectField field="Olson Timezone" selected="False" />
+            <SelectField field="Name" selected="False" />
+            <SelectField field="Right_State" selected="False" />
+            <SelectField field="State" selected="False" />
+            <SelectField field="StoreCity" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="174" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\ayumi\Documents\git\udacity-business-analyst\04-ab-test-a-new-menu-launch\data\round-roaster-stores.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>round-roaster-stores.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="StoreID" size="254" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\04-ab-test-a-new-menu-launch\data\round-roaster-stores.csv" type="V_String" />
+            <Field name="Sq_Ft" size="254" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\04-ab-test-a-new-menu-launch\data\round-roaster-stores.csv" type="V_String" />
+            <Field name="AvgMonthSales" size="254" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\04-ab-test-a-new-menu-launch\data\round-roaster-stores.csv" type="V_String" />
+            <Field name="Right_Name" size="254" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\04-ab-test-a-new-menu-launch\data\round-roaster-stores.csv" type="V_String" />
+            <Field name="Phone Number" size="254" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\04-ab-test-a-new-menu-launch\data\round-roaster-stores.csv" type="V_String" />
+            <Field name="Street Combined" size="254" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\04-ab-test-a-new-menu-launch\data\round-roaster-stores.csv" type="V_String" />
+            <Field name="Street 1" size="254" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\04-ab-test-a-new-menu-launch\data\round-roaster-stores.csv" type="V_String" />
+            <Field name="Street 2" size="254" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\04-ab-test-a-new-menu-launch\data\round-roaster-stores.csv" type="V_String" />
+            <Field name="Street 3" size="254" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\04-ab-test-a-new-menu-launch\data\round-roaster-stores.csv" type="V_String" />
+            <Field name="City" size="254" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\04-ab-test-a-new-menu-launch\data\round-roaster-stores.csv" type="V_String" />
+            <Field name="State" size="254" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\04-ab-test-a-new-menu-launch\data\round-roaster-stores.csv" type="V_String" />
+            <Field name="Postal Code" size="254" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\04-ab-test-a-new-menu-launch\data\round-roaster-stores.csv" type="V_String" />
+            <Field name="Region" size="254" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\04-ab-test-a-new-menu-launch\data\round-roaster-stores.csv" type="V_String" />
+            <Field name="Country" size="254" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\04-ab-test-a-new-menu-launch\data\round-roaster-stores.csv" type="V_String" />
+            <Field name="Coordinates" size="254" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\04-ab-test-a-new-menu-launch\data\round-roaster-stores.csv" type="V_String" />
+            <Field name="Latitude" size="254" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\04-ab-test-a-new-menu-launch\data\round-roaster-stores.csv" type="V_String" />
+            <Field name="Longitude" size="254" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\04-ab-test-a-new-menu-launch\data\round-roaster-stores.csv" type="V_String" />
+            <Field name="Timezone" size="254" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\04-ab-test-a-new-menu-launch\data\round-roaster-stores.csv" type="V_String" />
+            <Field name="Current Timezone Offset" size="254" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\04-ab-test-a-new-menu-launch\data\round-roaster-stores.csv" type="V_String" />
+            <Field name="Olson Timezone" size="254" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\04-ab-test-a-new-menu-launch\data\round-roaster-stores.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="270" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Sq_Ft" selected="True" type="Int16" size="2" />
+            <SelectField field="AvgMonthSales" selected="True" type="Double" size="8" />
+            <SelectField field="Right_Name" selected="False" />
+            <SelectField field="Phone Number" selected="False" />
+            <SelectField field="Street Combined" selected="False" />
+            <SelectField field="Street 1" selected="False" />
+            <SelectField field="Street 2" selected="False" />
+            <SelectField field="Street 3" selected="False" />
+            <SelectField field="City" selected="False" />
+            <SelectField field="State" selected="False" />
+            <SelectField field="Postal Code" selected="False" />
+            <SelectField field="Country" selected="False" />
+            <SelectField field="Coordinates" selected="False" />
+            <SelectField field="Latitude" selected="False" />
+            <SelectField field="Longitude" selected="False" />
+            <SelectField field="Timezone" selected="False" />
+            <SelectField field="Current Timezone Offset" selected="False" />
+            <SelectField field="Olson Timezone" selected="False" />
+            <SelectField field="Name" selected="False" />
+            <SelectField field="StoreCity" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="606" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File FileFormat="19" MaxRecords="">C:\Users\ayumi\Documents\git\udacity-business-analyst\04-ab-test-a-new-menu-launch\data\store_list.yxdb</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <NoSpatialIndex>False</NoSpatialIndex>
+            <SaveSource>True</SaveSource>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>store_list.yxdb</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="390" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="StoreID" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="StoreID" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_StoreID" selected="False" rename="Right_StoreID" />
+                <SelectField field="Right_Sq_Ft" selected="False" rename="Right_Sq_Ft" />
+                <SelectField field="Right_AvgMonthSales" selected="False" rename="Right_AvgMonthSales" />
+                <SelectField field="Right_Region" selected="False" rename="Right_Region" />
+                <SelectField field="Left_TreatmentStore" selected="False" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="510" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="606" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="StoreID" action="CountDistinct" rename="CountDistinct_StoreID" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="354" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="">C:\Users\ayumi\Documents\git\udacity-business-analyst\04-ab-test-a-new-menu-launch\data\weekly_transaction_per_store.yxdb</File>
+          <FormatSpecificOptions />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>weekly_transaction_per_store.yxdb</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="StoreID" size="254" source="Summarize: GroupBy - StoreID" type="V_String" />
+            <Field name="Week" source="Summarize: GroupBy - Week" type="Int64" />
+            <Field name="Week_Start" source="Summarize: GroupBy - Week_Start" type="Date" />
+            <Field name="Week_End" source="Summarize: GroupBy - Week_End" type="Date" />
+            <Field name="Sum_Gross Margin" source="Summarize: Sum - Gross Margin" type="Double" />
+            <Field name="Sum_Sales" source="Summarize: Sum - Sales" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="438" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="StoreID" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="StoreID" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_StoreID" selected="True" rename="Right_StoreID" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings>
+        <Position x="546" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="do target">False</Value>
+          <Value name="target">StoreID</Value>
+          <Value name="target level" />
+          <Value name="use fields">"Sum_Gross Margin","Sq_Ft","AvgMonthSales"</Value>
+          <Value name="Pearson">True</Value>
+          <Value name="Spearman">False</Value>
+          <Value name="Hoeffding">False</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Association_Analysis.yxmc" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="642" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\ayumi\AppData\Local\Temp\Engine_13420_fe64d86d5d4d4b8d9598ca5442185fcd_\Engine_18516_2aba6f360b284015bc2bda059025c622_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="678" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\ayumi\AppData\Local\Temp\Engine_13420_fe64d86d5d4d4b8d9598ca5442185fcd_\Engine_18516_4822b0ac9fe24e0f8a19504cd5f1e965_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="54" width="504" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Create store list with treatment column.
+The stores which were selected as a treatment store will have value 1 in treatment column.</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="7" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="7" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="12" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="12" Connection="Left" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="7" Connection="Left" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="7" Connection="Join" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Join" />
+      <Destination ToolID="13" Connection="Data Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Correlation Matrix" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>store-list</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

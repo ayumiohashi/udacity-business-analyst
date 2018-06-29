@@ -9,6 +9,6 @@ Project | Description | Methodology
 04 | A/B Text a New Menu Launch | AB Testing
 05 | Forecast Video Game Demand | Forecasting Models (ETS and ARIMA Models)
 06 | Grocery Store Formats And Inventory Planning | &nbsp;
-`Task 1` | Determine Store Formats for Existing Stores | Clustering Model
-`Task 2` | Determine Store Formats for New Stores | Non-Binary Classification Models (Forest and Boosted Models)
-`Task 3` | Predicting Produce Sales | Forecasting Models (ETS and ARIMA Models)
+`Task1` | Determine Store Formats for Existing Stores | Clustering Model
+`Task2` | Determine Store Formats for New Stores | Non-Binary Classification Models (Forest and Boosted Models)
+`Task3` | Predicting Produce Sales | Forecasting Models (ETS and ARIMA Models)

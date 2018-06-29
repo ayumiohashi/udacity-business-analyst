@@ -1,7 +1,7 @@
 ## Predict Loan Default Risk
 A bank recently received an influx of loan applications.
 
-Build and apply a classification model to provide a recommendation on which loan applicants the bank should lend to.
+Build and apply classification models (Logistic Regression, Decision Tree, Forest Model, Boosted Model) to provide a recommendation on which loan applicants the bank should lend to.
 
 ### Business Problem
 You work for a small bank and are responsible for determining if customers are creditworthy to give a loan to. Your team typically gets 200 loan applications per week and approves them by hand.

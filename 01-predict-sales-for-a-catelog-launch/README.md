@@ -2,8 +2,8 @@
 
 A home-goods manufacturer wants to predict expected profits from a catalog launch.
 
-Apply a framework to work through the problem and build a linear
-regression model to provide results and a recommendation.
+Apply a framework to work through the problem and build a Linear
+Regression model to provide results and a recommendation.
 
 ### Business Problem
 

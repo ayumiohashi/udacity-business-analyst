@@ -3,12 +3,12 @@
   <Nodes>
     <Node ToolID="3">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="66" y="30" />
+        <Position x="54" y="78" />
       </GuiSettings>
       <Properties>
         <Configuration>
           <Passwords />
-          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\ayumi\Documents\Udacity\Business Analyst\Project\Project 2 - Select Location of a New Pet Store\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv</File>
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\ayumi\Documents\git\udacity-business-analyst\02-select-location-of-a-new-pet-store\data\pawdacity-monthly-sales.csv</File>
           <FormatSpecificOptions>
             <CodePage>28591</CodePage>
             <Delimeter>,</Delimeter>
@@ -22,7 +22,7 @@
         </Configuration>
         <Annotation DisplayMode="0">
           <Name />
-          <DefaultAnnotationText>p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv</DefaultAnnotationText>
+          <DefaultAnnotationText>pawdacity-monthly-sales.csv</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
         <Dependencies>
@@ -30,23 +30,23 @@
         </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
-            <Field name="NAME" size="254" source="File: C:\Users\ayumi\Documents\Udacity\Business Analyst\Project\Project 2 - Select Location of a New Pet Store\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="V_String" />
-            <Field name="ADDRESS" size="254" source="File: C:\Users\ayumi\Documents\Udacity\Business Analyst\Project\Project 2 - Select Location of a New Pet Store\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="V_String" />
-            <Field name="CITY" size="254" source="File: C:\Users\ayumi\Documents\Udacity\Business Analyst\Project\Project 2 - Select Location of a New Pet Store\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="V_String" />
-            <Field name="STATE" size="254" source="File: C:\Users\ayumi\Documents\Udacity\Business Analyst\Project\Project 2 - Select Location of a New Pet Store\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="V_String" />
-            <Field name="ZIP" size="254" source="File: C:\Users\ayumi\Documents\Udacity\Business Analyst\Project\Project 2 - Select Location of a New Pet Store\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="V_String" />
-            <Field name="January" size="254" source="File: C:\Users\ayumi\Documents\Udacity\Business Analyst\Project\Project 2 - Select Location of a New Pet Store\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="V_String" />
-            <Field name="February" size="254" source="File: C:\Users\ayumi\Documents\Udacity\Business Analyst\Project\Project 2 - Select Location of a New Pet Store\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="V_String" />
-            <Field name="March" size="254" source="File: C:\Users\ayumi\Documents\Udacity\Business Analyst\Project\Project 2 - Select Location of a New Pet Store\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="V_String" />
-            <Field name="April" size="254" source="File: C:\Users\ayumi\Documents\Udacity\Business Analyst\Project\Project 2 - Select Location of a New Pet Store\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="V_String" />
-            <Field name="May" size="254" source="File: C:\Users\ayumi\Documents\Udacity\Business Analyst\Project\Project 2 - Select Location of a New Pet Store\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="V_String" />
-            <Field name="June" size="254" source="File: C:\Users\ayumi\Documents\Udacity\Business Analyst\Project\Project 2 - Select Location of a New Pet Store\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="V_String" />
-            <Field name="July" size="254" source="File: C:\Users\ayumi\Documents\Udacity\Business Analyst\Project\Project 2 - Select Location of a New Pet Store\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="V_String" />
-            <Field name="August" size="254" source="File: C:\Users\ayumi\Documents\Udacity\Business Analyst\Project\Project 2 - Select Location of a New Pet Store\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="V_String" />
-            <Field name="September" size="254" source="File: C:\Users\ayumi\Documents\Udacity\Business Analyst\Project\Project 2 - Select Location of a New Pet Store\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="V_String" />
-            <Field name="October" size="254" source="File: C:\Users\ayumi\Documents\Udacity\Business Analyst\Project\Project 2 - Select Location of a New Pet Store\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="V_String" />
-            <Field name="November" size="254" source="File: C:\Users\ayumi\Documents\Udacity\Business Analyst\Project\Project 2 - Select Location of a New Pet Store\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="V_String" />
-            <Field name="December" size="254" source="File: C:\Users\ayumi\Documents\Udacity\Business Analyst\Project\Project 2 - Select Location of a New Pet Store\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="V_String" />
+            <Field name="NAME" size="254" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\02-select-location-of-a-new-pet-store\data\pawdacity-monthly-sales.csv" type="V_String" />
+            <Field name="ADDRESS" size="254" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\02-select-location-of-a-new-pet-store\data\pawdacity-monthly-sales.csv" type="V_String" />
+            <Field name="CITY" size="254" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\02-select-location-of-a-new-pet-store\data\pawdacity-monthly-sales.csv" type="V_String" />
+            <Field name="STATE" size="254" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\02-select-location-of-a-new-pet-store\data\pawdacity-monthly-sales.csv" type="V_String" />
+            <Field name="ZIP" size="254" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\02-select-location-of-a-new-pet-store\data\pawdacity-monthly-sales.csv" type="V_String" />
+            <Field name="January" size="254" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\02-select-location-of-a-new-pet-store\data\pawdacity-monthly-sales.csv" type="V_String" />
+            <Field name="February" size="254" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\02-select-location-of-a-new-pet-store\data\pawdacity-monthly-sales.csv" type="V_String" />
+            <Field name="March" size="254" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\02-select-location-of-a-new-pet-store\data\pawdacity-monthly-sales.csv" type="V_String" />
+            <Field name="April" size="254" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\02-select-location-of-a-new-pet-store\data\pawdacity-monthly-sales.csv" type="V_String" />
+            <Field name="May" size="254" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\02-select-location-of-a-new-pet-store\data\pawdacity-monthly-sales.csv" type="V_String" />
+            <Field name="June" size="254" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\02-select-location-of-a-new-pet-store\data\pawdacity-monthly-sales.csv" type="V_String" />
+            <Field name="July" size="254" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\02-select-location-of-a-new-pet-store\data\pawdacity-monthly-sales.csv" type="V_String" />
+            <Field name="August" size="254" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\02-select-location-of-a-new-pet-store\data\pawdacity-monthly-sales.csv" type="V_String" />
+            <Field name="September" size="254" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\02-select-location-of-a-new-pet-store\data\pawdacity-monthly-sales.csv" type="V_String" />
+            <Field name="October" size="254" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\02-select-location-of-a-new-pet-store\data\pawdacity-monthly-sales.csv" type="V_String" />
+            <Field name="November" size="254" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\02-select-location-of-a-new-pet-store\data\pawdacity-monthly-sales.csv" type="V_String" />
+            <Field name="December" size="254" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\02-select-location-of-a-new-pet-store\data\pawdacity-monthly-sales.csv" type="V_String" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
@@ -54,12 +54,12 @@
     </Node>
     <Node ToolID="4">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="66" y="138" />
+        <Position x="54" y="186" />
       </GuiSettings>
       <Properties>
         <Configuration>
           <Passwords />
-          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\ayumi\Documents\Udacity\Business Analyst\Project\Project 2 - Select Location of a New Pet Store\p2-partially-parsed-wy-web-scrape.csv</File>
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\ayumi\Documents\git\udacity-business-analyst\02-select-location-of-a-new-pet-store\data\population.csv</File>
           <FormatSpecificOptions>
             <CodePage>28591</CodePage>
             <Delimeter>,</Delimeter>
@@ -73,7 +73,7 @@
         </Configuration>
         <Annotation DisplayMode="0">
           <Name />
-          <DefaultAnnotationText>p2-partially-parsed-wy-web-scrape.csv</DefaultAnnotationText>
+          <DefaultAnnotationText>population.csv</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
         <Dependencies>
@@ -81,10 +81,10 @@
         </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
-            <Field name="City|County" size="254" source="File: C:\Users\ayumi\Documents\Udacity\Business Analyst\Project\Project 2 - Select Location of a New Pet Store\p2-partially-parsed-wy-web-scrape.csv" type="V_String" />
-            <Field name="2014 Estimate" size="254" source="File: C:\Users\ayumi\Documents\Udacity\Business Analyst\Project\Project 2 - Select Location of a New Pet Store\p2-partially-parsed-wy-web-scrape.csv" type="V_String" />
-            <Field name="2010 Census" size="254" source="File: C:\Users\ayumi\Documents\Udacity\Business Analyst\Project\Project 2 - Select Location of a New Pet Store\p2-partially-parsed-wy-web-scrape.csv" type="V_String" />
-            <Field name="2000 Census" size="254" source="File: C:\Users\ayumi\Documents\Udacity\Business Analyst\Project\Project 2 - Select Location of a New Pet Store\p2-partially-parsed-wy-web-scrape.csv" type="V_String" />
+            <Field name="City|County" size="254" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\02-select-location-of-a-new-pet-store\data\population.csv" type="V_String" />
+            <Field name="2014 Estimate" size="254" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\02-select-location-of-a-new-pet-store\data\population.csv" type="V_String" />
+            <Field name="2010 Census" size="254" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\02-select-location-of-a-new-pet-store\data\population.csv" type="V_String" />
+            <Field name="2000 Census" size="254" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\02-select-location-of-a-new-pet-store\data\population.csv" type="V_String" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
@@ -92,12 +92,12 @@
     </Node>
     <Node ToolID="5">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="66" y="222" />
+        <Position x="54" y="270" />
       </GuiSettings>
       <Properties>
         <Configuration>
           <Passwords />
-          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\ayumi\Documents\Udacity\Business Analyst\Project\Project 2 - Select Location of a New Pet Store\p2-wy-demographic-data.csv</File>
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\ayumi\Documents\git\udacity-business-analyst\02-select-location-of-a-new-pet-store\data\demographic.csv</File>
           <FormatSpecificOptions>
             <CodePage>28591</CodePage>
             <Delimeter>,</Delimeter>
@@ -111,7 +111,7 @@
         </Configuration>
         <Annotation DisplayMode="0">
           <Name />
-          <DefaultAnnotationText>p2-wy-demographic-data.csv</DefaultAnnotationText>
+          <DefaultAnnotationText>demographic.csv</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
         <Dependencies>
@@ -119,12 +119,12 @@
         </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
-            <Field name="City" size="254" source="File: C:\Users\ayumi\Documents\Udacity\Business Analyst\Project\Project 2 - Select Location of a New Pet Store\p2-wy-demographic-data.csv" type="V_String" />
-            <Field name="County" size="254" source="File: C:\Users\ayumi\Documents\Udacity\Business Analyst\Project\Project 2 - Select Location of a New Pet Store\p2-wy-demographic-data.csv" type="V_String" />
-            <Field name="Land Area" size="254" source="File: C:\Users\ayumi\Documents\Udacity\Business Analyst\Project\Project 2 - Select Location of a New Pet Store\p2-wy-demographic-data.csv" type="V_String" />
-            <Field name="Households with Under 18" size="254" source="File: C:\Users\ayumi\Documents\Udacity\Business Analyst\Project\Project 2 - Select Location of a New Pet Store\p2-wy-demographic-data.csv" type="V_String" />
-            <Field name="Population Density" size="254" source="File: C:\Users\ayumi\Documents\Udacity\Business Analyst\Project\Project 2 - Select Location of a New Pet Store\p2-wy-demographic-data.csv" type="V_String" />
-            <Field name="Total Families" size="254" source="File: C:\Users\ayumi\Documents\Udacity\Business Analyst\Project\Project 2 - Select Location of a New Pet Store\p2-wy-demographic-data.csv" type="V_String" />
+            <Field name="City" size="254" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\02-select-location-of-a-new-pet-store\data\demographic.csv" type="V_String" />
+            <Field name="County" size="254" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\02-select-location-of-a-new-pet-store\data\demographic.csv" type="V_String" />
+            <Field name="Land Area" size="254" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\02-select-location-of-a-new-pet-store\data\demographic.csv" type="V_String" />
+            <Field name="Households with Under 18" size="254" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\02-select-location-of-a-new-pet-store\data\demographic.csv" type="V_String" />
+            <Field name="Population Density" size="254" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\02-select-location-of-a-new-pet-store\data\demographic.csv" type="V_String" />
+            <Field name="Total Families" size="254" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\02-select-location-of-a-new-pet-store\data\demographic.csv" type="V_String" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
@@ -132,7 +132,7 @@
     </Node>
     <Node ToolID="6">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
-        <Position x="138" y="30" />
+        <Position x="126" y="78" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -164,23 +164,23 @@
         </Annotation>
         <MetaInfo connection="Output">
           <RecordInfo>
-            <Field name="NAME" size="9" source="File: C:\Users\ayumi\Documents\Udacity\Business Analyst\Project\Project 2 - Select Location of a New Pet Store\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="String" />
-            <Field name="ADDRESS" size="28" source="File: C:\Users\ayumi\Documents\Udacity\Business Analyst\Project\Project 2 - Select Location of a New Pet Store\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="V_String" />
-            <Field name="CITY" size="12" source="File: C:\Users\ayumi\Documents\Udacity\Business Analyst\Project\Project 2 - Select Location of a New Pet Store\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="String" />
-            <Field name="STATE" size="2" source="File: C:\Users\ayumi\Documents\Udacity\Business Analyst\Project\Project 2 - Select Location of a New Pet Store\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="String" />
-            <Field name="ZIP" source="File: C:\Users\ayumi\Documents\Udacity\Business Analyst\Project\Project 2 - Select Location of a New Pet Store\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="Int32" />
-            <Field name="January" source="File: C:\Users\ayumi\Documents\Udacity\Business Analyst\Project\Project 2 - Select Location of a New Pet Store\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="Int32" />
-            <Field name="February" source="File: C:\Users\ayumi\Documents\Udacity\Business Analyst\Project\Project 2 - Select Location of a New Pet Store\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="Int32" />
-            <Field name="March" source="File: C:\Users\ayumi\Documents\Udacity\Business Analyst\Project\Project 2 - Select Location of a New Pet Store\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="Int32" />
-            <Field name="April" source="File: C:\Users\ayumi\Documents\Udacity\Business Analyst\Project\Project 2 - Select Location of a New Pet Store\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="Int32" />
-            <Field name="May" source="File: C:\Users\ayumi\Documents\Udacity\Business Analyst\Project\Project 2 - Select Location of a New Pet Store\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="Int32" />
-            <Field name="June" source="File: C:\Users\ayumi\Documents\Udacity\Business Analyst\Project\Project 2 - Select Location of a New Pet Store\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="Int32" />
-            <Field name="July" source="File: C:\Users\ayumi\Documents\Udacity\Business Analyst\Project\Project 2 - Select Location of a New Pet Store\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="Int32" />
-            <Field name="August" source="File: C:\Users\ayumi\Documents\Udacity\Business Analyst\Project\Project 2 - Select Location of a New Pet Store\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="Int32" />
-            <Field name="September" source="File: C:\Users\ayumi\Documents\Udacity\Business Analyst\Project\Project 2 - Select Location of a New Pet Store\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="Int32" />
-            <Field name="October" source="File: C:\Users\ayumi\Documents\Udacity\Business Analyst\Project\Project 2 - Select Location of a New Pet Store\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="Int32" />
-            <Field name="November" source="File: C:\Users\ayumi\Documents\Udacity\Business Analyst\Project\Project 2 - Select Location of a New Pet Store\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="Int32" />
-            <Field name="December" source="File: C:\Users\ayumi\Documents\Udacity\Business Analyst\Project\Project 2 - Select Location of a New Pet Store\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="Int32" />
+            <Field name="NAME" size="9" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\02-select-location-of-a-new-pet-store\data\pawdacity-monthly-sales.csv" type="String" />
+            <Field name="ADDRESS" size="28" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\02-select-location-of-a-new-pet-store\data\pawdacity-monthly-sales.csv" type="V_String" />
+            <Field name="CITY" size="12" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\02-select-location-of-a-new-pet-store\data\pawdacity-monthly-sales.csv" type="String" />
+            <Field name="STATE" size="2" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\02-select-location-of-a-new-pet-store\data\pawdacity-monthly-sales.csv" type="String" />
+            <Field name="ZIP" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\02-select-location-of-a-new-pet-store\data\pawdacity-monthly-sales.csv" type="Int32" />
+            <Field name="January" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\02-select-location-of-a-new-pet-store\data\pawdacity-monthly-sales.csv" type="Int32" />
+            <Field name="February" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\02-select-location-of-a-new-pet-store\data\pawdacity-monthly-sales.csv" type="Int32" />
+            <Field name="March" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\02-select-location-of-a-new-pet-store\data\pawdacity-monthly-sales.csv" type="Int32" />
+            <Field name="April" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\02-select-location-of-a-new-pet-store\data\pawdacity-monthly-sales.csv" type="Int32" />
+            <Field name="May" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\02-select-location-of-a-new-pet-store\data\pawdacity-monthly-sales.csv" type="Int32" />
+            <Field name="June" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\02-select-location-of-a-new-pet-store\data\pawdacity-monthly-sales.csv" type="Int32" />
+            <Field name="July" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\02-select-location-of-a-new-pet-store\data\pawdacity-monthly-sales.csv" type="Int32" />
+            <Field name="August" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\02-select-location-of-a-new-pet-store\data\pawdacity-monthly-sales.csv" type="Int32" />
+            <Field name="September" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\02-select-location-of-a-new-pet-store\data\pawdacity-monthly-sales.csv" type="Int32" />
+            <Field name="October" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\02-select-location-of-a-new-pet-store\data\pawdacity-monthly-sales.csv" type="Int32" />
+            <Field name="November" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\02-select-location-of-a-new-pet-store\data\pawdacity-monthly-sales.csv" type="Int32" />
+            <Field name="December" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\02-select-location-of-a-new-pet-store\data\pawdacity-monthly-sales.csv" type="Int32" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
@@ -188,7 +188,7 @@
     </Node>
     <Node ToolID="7">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
-        <Position x="150" y="222" />
+        <Position x="138" y="270" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -209,12 +209,12 @@
         </Annotation>
         <MetaInfo connection="Output">
           <RecordInfo>
-            <Field name="City" size="17" source="File: C:\Users\ayumi\Documents\Udacity\Business Analyst\Project\Project 2 - Select Location of a New Pet Store\p2-wy-demographic-data.csv" type="V_String" />
-            <Field name="County" size="11" source="File: C:\Users\ayumi\Documents\Udacity\Business Analyst\Project\Project 2 - Select Location of a New Pet Store\p2-wy-demographic-data.csv" type="String" />
-            <Field name="Land Area" source="File: C:\Users\ayumi\Documents\Udacity\Business Analyst\Project\Project 2 - Select Location of a New Pet Store\p2-wy-demographic-data.csv" type="Double" />
-            <Field name="Households with Under 18" source="File: C:\Users\ayumi\Documents\Udacity\Business Analyst\Project\Project 2 - Select Location of a New Pet Store\p2-wy-demographic-data.csv" type="Int16" />
-            <Field name="Population Density" source="File: C:\Users\ayumi\Documents\Udacity\Business Analyst\Project\Project 2 - Select Location of a New Pet Store\p2-wy-demographic-data.csv" type="Double" />
-            <Field name="Total Families" source="File: C:\Users\ayumi\Documents\Udacity\Business Analyst\Project\Project 2 - Select Location of a New Pet Store\p2-wy-demographic-data.csv" type="Double" />
+            <Field name="City" size="17" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\02-select-location-of-a-new-pet-store\data\demographic.csv" type="V_String" />
+            <Field name="County" size="11" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\02-select-location-of-a-new-pet-store\data\demographic.csv" type="String" />
+            <Field name="Land Area" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\02-select-location-of-a-new-pet-store\data\demographic.csv" type="Double" />
+            <Field name="Households with Under 18" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\02-select-location-of-a-new-pet-store\data\demographic.csv" type="Int16" />
+            <Field name="Population Density" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\02-select-location-of-a-new-pet-store\data\demographic.csv" type="Double" />
+            <Field name="Total Families" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\02-select-location-of-a-new-pet-store\data\demographic.csv" type="Double" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
@@ -222,7 +222,7 @@
     </Node>
     <Node ToolID="8">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="294" y="138" />
+        <Position x="282" y="186" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -247,7 +247,7 @@
     </Node>
     <Node ToolID="12">
       <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
-        <Position x="222" y="138" />
+        <Position x="210" y="186" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -268,7 +268,7 @@
     </Node>
     <Node ToolID="13">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="378" y="138" />
+        <Position x="366" y="186" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -291,7 +291,7 @@
     </Node>
     <Node ToolID="14">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
-        <Position x="462" y="138" />
+        <Position x="450" y="186" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -311,9 +311,9 @@
         </Annotation>
         <MetaInfo connection="Output">
           <RecordInfo>
-            <Field name="2014 Estimate" size="15" source="File: C:\Users\ayumi\Documents\Udacity\Business Analyst\Project\Project 2 - Select Location of a New Pet Store\p2-partially-parsed-wy-web-scrape.csv" type="String" />
+            <Field name="2014 Estimate" size="15" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\02-select-location-of-a-new-pet-store\data\population.csv" type="String" />
             <Field name="2010 Census" source="Formula: Left([2010 Census], FindString([2010 Census], &quot;&lt;&quot;))" type="Int32" />
-            <Field name="2000 Census" size="15" source="File: C:\Users\ayumi\Documents\Udacity\Business Analyst\Project\Project 2 - Select Location of a New Pet Store\p2-partially-parsed-wy-web-scrape.csv" type="String" />
+            <Field name="2000 Census" size="15" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\02-select-location-of-a-new-pet-store\data\population.csv" type="String" />
             <Field description="TextToColumns: Parsed from City|County" name="City" size="15" source="Formula: IF [CityCounty1] = &quot;RockSprings&quot; THEN &quot;Rock Springs&quot; ELSE [CityCounty1] ENDIF" type="V_String" />
             <Field description="TextToColumns: Parsed from City|County" name="Country" size="11" source="TextToColumns: Parsed from City|County" type="String" />
           </RecordInfo>
@@ -323,7 +323,7 @@
     </Node>
     <Node ToolID="15">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
-        <Position x="138" y="138" />
+        <Position x="126" y="186" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -343,7 +343,7 @@
     </Node>
     <Node ToolID="21">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
-        <Position x="294" y="30" />
+        <Position x="282" y="78" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -382,7 +382,7 @@
     </Node>
     <Node ToolID="22">
       <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
-        <Position x="378" y="30" />
+        <Position x="366" y="78" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -401,7 +401,7 @@
     </Node>
     <Node ToolID="23">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-        <Position x="534" y="66" />
+        <Position x="522" y="114" />
       </GuiSettings>
       <Properties>
         <Configuration joinByRecordPos="False">
@@ -438,7 +438,7 @@
     </Node>
     <Node ToolID="24">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="222" y="30" />
+        <Position x="210" y="78" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -454,7 +454,7 @@
     </Node>
     <Node ToolID="25">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-        <Position x="630" y="246" />
+        <Position x="618" y="294" />
       </GuiSettings>
       <Properties>
         <Configuration joinByRecordPos="False">
@@ -493,7 +493,7 @@
     </Node>
     <Node ToolID="27">
       <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
-        <Position x="594" y="330" />
+        <Position x="582" y="378" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -516,7 +516,7 @@
     </Node>
     <Node ToolID="28">
       <GuiSettings>
-        <Position x="738" y="246" />
+        <Position x="726" y="294" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -532,19 +532,16 @@
           <DefaultAnnotationText />
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
       </Properties>
       <EngineSettings Macro="Predictive Tools\Field_Summary_Report.yxmc" />
     </Node>
     <Node ToolID="29">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="774" y="330" />
+        <Position x="762" y="378" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\ayumi\AppData\Local\Temp\Engine_13168_132895a87a574d47a75c4460391efdf5_\Engine_3464_404b61616ac24445b04c92f2ba67e53e_.yxdb</TempFile>
+          <TempFile>C:\Users\ayumi\AppData\Local\Temp\Engine_13976_eeb975dbcbeb4670a42ae728257b21c6_\Engine_18516_515da81da4444585a29e185c837ce329_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -568,7 +565,7 @@
     </Node>
     <Node ToolID="30">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="330" y="222" />
+        <Position x="318" y="270" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -591,7 +588,7 @@
     </Node>
     <Node ToolID="31">
       <GuiSettings>
-        <Position x="702" y="102" />
+        <Position x="690" y="150" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -636,15 +633,12 @@
           <DefaultAnnotationText />
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
       </Properties>
       <EngineSettings Macro="Predictive Tools\Scatterplot.yxmc" />
     </Node>
     <Node ToolID="32">
       <GuiSettings>
-        <Position x="702" y="150" />
+        <Position x="690" y="198" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -689,15 +683,12 @@
           <DefaultAnnotationText />
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
       </Properties>
       <EngineSettings Macro="Predictive Tools\Scatterplot.yxmc" />
     </Node>
     <Node ToolID="33">
       <GuiSettings>
-        <Position x="702" y="198" />
+        <Position x="690" y="246" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -742,15 +733,12 @@
           <DefaultAnnotationText />
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
       </Properties>
       <EngineSettings Macro="Predictive Tools\Scatterplot.yxmc" />
     </Node>
     <Node ToolID="34">
       <GuiSettings>
-        <Position x="702" y="6" />
+        <Position x="690" y="54" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -795,15 +783,12 @@
           <DefaultAnnotationText />
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
       </Properties>
       <EngineSettings Macro="Predictive Tools\Scatterplot.yxmc" />
     </Node>
     <Node ToolID="35">
       <GuiSettings>
-        <Position x="702" y="54" />
+        <Position x="690" y="102" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -848,19 +833,16 @@
           <DefaultAnnotationText />
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
       </Properties>
       <EngineSettings Macro="Predictive Tools\Scatterplot.yxmc" />
     </Node>
     <Node ToolID="36">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="786" y="54" />
+        <Position x="774" y="102" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\ayumi\AppData\Local\Temp\Engine_13168_132895a87a574d47a75c4460391efdf5_\Engine_3464_6237c3a5ea7b4852844b8ce767f7fbc1_.yxdb</TempFile>
+          <TempFile>C:\Users\ayumi\AppData\Local\Temp\Engine_13976_eeb975dbcbeb4670a42ae728257b21c6_\Engine_18516_5d43db2ab7d8436bb0c1bcf05bd96710_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -884,11 +866,11 @@
     </Node>
     <Node ToolID="37">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="786" y="102" />
+        <Position x="774" y="150" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\ayumi\AppData\Local\Temp\Engine_13168_132895a87a574d47a75c4460391efdf5_\Engine_3464_964034c72c2c4232af422b900454dadc_.yxdb</TempFile>
+          <TempFile>C:\Users\ayumi\AppData\Local\Temp\Engine_13976_eeb975dbcbeb4670a42ae728257b21c6_\Engine_18516_cb42b06c2af643a2bac9febaa547b350_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -912,11 +894,11 @@
     </Node>
     <Node ToolID="38">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="786" y="150" />
+        <Position x="774" y="198" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\ayumi\AppData\Local\Temp\Engine_13168_132895a87a574d47a75c4460391efdf5_\Engine_3464_9c083a4afa7f454e9a24740f2daea368_.yxdb</TempFile>
+          <TempFile>C:\Users\ayumi\AppData\Local\Temp\Engine_13976_eeb975dbcbeb4670a42ae728257b21c6_\Engine_18516_b1b7b713a0bd41b3b8a8973ec807765d_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -940,11 +922,11 @@
     </Node>
     <Node ToolID="39">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="786" y="198" />
+        <Position x="774" y="246" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\ayumi\AppData\Local\Temp\Engine_13168_132895a87a574d47a75c4460391efdf5_\Engine_3464_663843225b0f4a85bda643788fa23090_.yxdb</TempFile>
+          <TempFile>C:\Users\ayumi\AppData\Local\Temp\Engine_13976_eeb975dbcbeb4670a42ae728257b21c6_\Engine_18516_e58f53c7178a4b2da34bc226531db6a8_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -968,11 +950,11 @@
     </Node>
     <Node ToolID="40">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="786" y="6" />
+        <Position x="774" y="54" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\ayumi\AppData\Local\Temp\Engine_13168_132895a87a574d47a75c4460391efdf5_\Engine_3464_d17bb4b9c6ff48839dc26694525d8128_.yxdb</TempFile>
+          <TempFile>C:\Users\ayumi\AppData\Local\Temp\Engine_13976_eeb975dbcbeb4670a42ae728257b21c6_\Engine_18516_4a80877dc6224717afae7d32b117f2ad_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -996,7 +978,7 @@
     </Node>
     <Node ToolID="41">
       <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
-        <Position x="666" y="330" />
+        <Position x="654" y="378" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1154,7 +1136,7 @@
     <LayoutType>Horizontal</LayoutType>
     <MetaInfo>
       <NameIsFileName value="True" />
-      <Name>Select Location of New Pet Store</Name>
+      <Name>select-location-of-new-pet-store</Name>
       <Description />
       <RootToolName />
       <ToolVersion />

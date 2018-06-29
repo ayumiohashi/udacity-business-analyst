@@ -1,2 +1,5 @@
 # Word
 *.docx
+
+# Alteryx Backup
+*.bak

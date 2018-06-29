@@ -3,12 +3,12 @@
   <Nodes>
     <Node ToolID="1">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="6" y="126" />
+        <Position x="54" y="174" />
       </GuiSettings>
       <Properties>
         <Configuration>
           <Passwords />
-          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\ayumi\Documents\Udacity\Business Analyst\Project\Project 1 - Predict Sales for Catalog Launch\p1-customers.xlsx|||`p1-customers$`</File>
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\ayumi\Documents\git\udacity-business-analyst\01-predict-sales-for-a-catelog-launch\data\customers.xlsx|||`p1-customers$`</File>
           <FormatSpecificOptions>
             <FirstRowData>False</FirstRowData>
             <ImportLine>1</ImportLine>
@@ -16,7 +16,7 @@
         </Configuration>
         <Annotation DisplayMode="0">
           <Name />
-          <DefaultAnnotationText>p1-customers.xlsx
+          <DefaultAnnotationText>customers.xlsx
 Table=`p1-customers$`</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
@@ -25,18 +25,18 @@ Table=`p1-customers$`</DefaultAnnotationText>
         </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
-            <Field name="Name" size="255" source="File: C:\Users\ayumi\Documents\Udacity\Business Analyst\Project\Project 1 - Predict Sales for Catalog Launch\p1-customers.xlsx|||`p1-customers$`" type="V_String" />
-            <Field name="Customer_Segment" size="255" source="File: C:\Users\ayumi\Documents\Udacity\Business Analyst\Project\Project 1 - Predict Sales for Catalog Launch\p1-customers.xlsx|||`p1-customers$`" type="V_String" />
-            <Field name="Customer_ID" source="File: C:\Users\ayumi\Documents\Udacity\Business Analyst\Project\Project 1 - Predict Sales for Catalog Launch\p1-customers.xlsx|||`p1-customers$`" type="Double" />
-            <Field name="Address" size="255" source="File: C:\Users\ayumi\Documents\Udacity\Business Analyst\Project\Project 1 - Predict Sales for Catalog Launch\p1-customers.xlsx|||`p1-customers$`" type="V_String" />
-            <Field name="City" size="255" source="File: C:\Users\ayumi\Documents\Udacity\Business Analyst\Project\Project 1 - Predict Sales for Catalog Launch\p1-customers.xlsx|||`p1-customers$`" type="V_String" />
-            <Field name="State" size="255" source="File: C:\Users\ayumi\Documents\Udacity\Business Analyst\Project\Project 1 - Predict Sales for Catalog Launch\p1-customers.xlsx|||`p1-customers$`" type="V_String" />
-            <Field name="ZIP" source="File: C:\Users\ayumi\Documents\Udacity\Business Analyst\Project\Project 1 - Predict Sales for Catalog Launch\p1-customers.xlsx|||`p1-customers$`" type="Double" />
-            <Field name="Avg_Sale_Amount" source="File: C:\Users\ayumi\Documents\Udacity\Business Analyst\Project\Project 1 - Predict Sales for Catalog Launch\p1-customers.xlsx|||`p1-customers$`" type="Double" />
-            <Field name="Store_Number" source="File: C:\Users\ayumi\Documents\Udacity\Business Analyst\Project\Project 1 - Predict Sales for Catalog Launch\p1-customers.xlsx|||`p1-customers$`" type="Double" />
-            <Field name="Responded_to_Last_Catalog" size="255" source="File: C:\Users\ayumi\Documents\Udacity\Business Analyst\Project\Project 1 - Predict Sales for Catalog Launch\p1-customers.xlsx|||`p1-customers$`" type="V_String" />
-            <Field name="Avg_Num_Products_Purchased" source="File: C:\Users\ayumi\Documents\Udacity\Business Analyst\Project\Project 1 - Predict Sales for Catalog Launch\p1-customers.xlsx|||`p1-customers$`" type="Double" />
-            <Field name="#_Years_as_Customer" source="File: C:\Users\ayumi\Documents\Udacity\Business Analyst\Project\Project 1 - Predict Sales for Catalog Launch\p1-customers.xlsx|||`p1-customers$`" type="Double" />
+            <Field name="Name" size="255" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\01-predict-sales-for-a-catelog-launch\data\customers.xlsx|||`p1-customers$`" type="V_String" />
+            <Field name="Customer_Segment" size="255" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\01-predict-sales-for-a-catelog-launch\data\customers.xlsx|||`p1-customers$`" type="V_String" />
+            <Field name="Customer_ID" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\01-predict-sales-for-a-catelog-launch\data\customers.xlsx|||`p1-customers$`" type="Double" />
+            <Field name="Address" size="255" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\01-predict-sales-for-a-catelog-launch\data\customers.xlsx|||`p1-customers$`" type="V_String" />
+            <Field name="City" size="255" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\01-predict-sales-for-a-catelog-launch\data\customers.xlsx|||`p1-customers$`" type="V_String" />
+            <Field name="State" size="255" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\01-predict-sales-for-a-catelog-launch\data\customers.xlsx|||`p1-customers$`" type="V_String" />
+            <Field name="ZIP" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\01-predict-sales-for-a-catelog-launch\data\customers.xlsx|||`p1-customers$`" type="Double" />
+            <Field name="Avg_Sale_Amount" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\01-predict-sales-for-a-catelog-launch\data\customers.xlsx|||`p1-customers$`" type="Double" />
+            <Field name="Store_Number" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\01-predict-sales-for-a-catelog-launch\data\customers.xlsx|||`p1-customers$`" type="Double" />
+            <Field name="Responded_to_Last_Catalog" size="255" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\01-predict-sales-for-a-catelog-launch\data\customers.xlsx|||`p1-customers$`" type="V_String" />
+            <Field name="Avg_Num_Products_Purchased" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\01-predict-sales-for-a-catelog-launch\data\customers.xlsx|||`p1-customers$`" type="Double" />
+            <Field name="#_Years_as_Customer" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\01-predict-sales-for-a-catelog-launch\data\customers.xlsx|||`p1-customers$`" type="Double" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
@@ -44,7 +44,7 @@ Table=`p1-customers$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="2">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="114" y="126" />
+        <Position x="162" y="174" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -65,7 +65,7 @@ Table=`p1-customers$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="3">
       <GuiSettings Plugin="Linear_Regression">
-        <Position x="210" y="126" />
+        <Position x="258" y="174" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -106,11 +106,11 @@ Table=`p1-customers$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="4">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="114" y="210" />
+        <Position x="162" y="258" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\ayumi\AppData\Local\Temp\Engine_104_025b641884984f03950bc7d8aa535a75_\Engine_11384_b2aa38e1707b41289ce2b005a8f7e3f2_.yxdb</TempFile>
+          <TempFile>C:\Users\ayumi\AppData\Local\Temp\Engine_19652_c1dcb1d0693d4a38945afb42833f15a0_\Engine_18516_b4366e0c6c094f75a51f90bb78eefc2b_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -134,11 +134,11 @@ Table=`p1-customers$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="5">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="342" y="198" />
+        <Position x="390" y="246" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\ayumi\AppData\Local\Temp\Engine_104_025b641884984f03950bc7d8aa535a75_\Engine_11384_732cecf352ca45618eab612af2bd0328_.yxdb</TempFile>
+          <TempFile>C:\Users\ayumi\AppData\Local\Temp\Engine_19652_c1dcb1d0693d4a38945afb42833f15a0_\Engine_18516_61b3ca6cbee44afa9a944e573d138d5f_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -162,7 +162,7 @@ Table=`p1-customers$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="7">
       <GuiSettings>
-        <Position x="342" y="18" />
+        <Position x="390" y="66" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -181,9 +181,6 @@ Table=`p1-customers$`</DefaultAnnotationText>
           <DefaultAnnotationText />
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="Name" size="1073741823" source="R-DATA:" type="V_WString" />
@@ -206,12 +203,12 @@ Table=`p1-customers$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="8">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="126" y="6" />
+        <Position x="174" y="54" />
       </GuiSettings>
       <Properties>
         <Configuration>
           <Passwords />
-          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\ayumi\Documents\Udacity\Business Analyst\Project\Project 1 - Predict Sales for Catalog Launch\p1-mailinglist.xlsx|||`p1-mailinglist$`</File>
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\ayumi\Documents\git\udacity-business-analyst\01-predict-sales-for-a-catelog-launch\data\mailinglist.xlsx|||`p1-mailinglist$`</File>
           <FormatSpecificOptions>
             <FirstRowData>False</FirstRowData>
             <ImportLine>1</ImportLine>
@@ -219,7 +216,7 @@ Table=`p1-customers$`</DefaultAnnotationText>
         </Configuration>
         <Annotation DisplayMode="0">
           <Name />
-          <DefaultAnnotationText>p1-mailinglist.xlsx
+          <DefaultAnnotationText>mailinglist.xlsx
 Table=`p1-mailinglist$`</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
@@ -228,18 +225,18 @@ Table=`p1-mailinglist$`</DefaultAnnotationText>
         </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
-            <Field name="Name" size="255" source="File: C:\Users\ayumi\Documents\Udacity\Business Analyst\Project\Project 1 - Predict Sales for Catalog Launch\p1-mailinglist.xlsx|||`p1-mailinglist$`" type="V_String" />
-            <Field name="Customer_Segment" size="255" source="File: C:\Users\ayumi\Documents\Udacity\Business Analyst\Project\Project 1 - Predict Sales for Catalog Launch\p1-mailinglist.xlsx|||`p1-mailinglist$`" type="V_String" />
-            <Field name="Customer_ID" source="File: C:\Users\ayumi\Documents\Udacity\Business Analyst\Project\Project 1 - Predict Sales for Catalog Launch\p1-mailinglist.xlsx|||`p1-mailinglist$`" type="Double" />
-            <Field name="Address" size="255" source="File: C:\Users\ayumi\Documents\Udacity\Business Analyst\Project\Project 1 - Predict Sales for Catalog Launch\p1-mailinglist.xlsx|||`p1-mailinglist$`" type="V_String" />
-            <Field name="City" size="255" source="File: C:\Users\ayumi\Documents\Udacity\Business Analyst\Project\Project 1 - Predict Sales for Catalog Launch\p1-mailinglist.xlsx|||`p1-mailinglist$`" type="V_String" />
-            <Field name="State" size="255" source="File: C:\Users\ayumi\Documents\Udacity\Business Analyst\Project\Project 1 - Predict Sales for Catalog Launch\p1-mailinglist.xlsx|||`p1-mailinglist$`" type="V_String" />
-            <Field name="ZIP" source="File: C:\Users\ayumi\Documents\Udacity\Business Analyst\Project\Project 1 - Predict Sales for Catalog Launch\p1-mailinglist.xlsx|||`p1-mailinglist$`" type="Double" />
-            <Field name="Store_Number" source="File: C:\Users\ayumi\Documents\Udacity\Business Analyst\Project\Project 1 - Predict Sales for Catalog Launch\p1-mailinglist.xlsx|||`p1-mailinglist$`" type="Double" />
-            <Field name="Avg_Num_Products_Purchased" source="File: C:\Users\ayumi\Documents\Udacity\Business Analyst\Project\Project 1 - Predict Sales for Catalog Launch\p1-mailinglist.xlsx|||`p1-mailinglist$`" type="Double" />
-            <Field name="#_Years_as_Customer" source="File: C:\Users\ayumi\Documents\Udacity\Business Analyst\Project\Project 1 - Predict Sales for Catalog Launch\p1-mailinglist.xlsx|||`p1-mailinglist$`" type="Double" />
-            <Field name="Score_No" source="File: C:\Users\ayumi\Documents\Udacity\Business Analyst\Project\Project 1 - Predict Sales for Catalog Launch\p1-mailinglist.xlsx|||`p1-mailinglist$`" type="Double" />
-            <Field name="Score_Yes" source="File: C:\Users\ayumi\Documents\Udacity\Business Analyst\Project\Project 1 - Predict Sales for Catalog Launch\p1-mailinglist.xlsx|||`p1-mailinglist$`" type="Double" />
+            <Field name="Name" size="255" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\01-predict-sales-for-a-catelog-launch\data\mailinglist.xlsx|||`p1-mailinglist$`" type="V_String" />
+            <Field name="Customer_Segment" size="255" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\01-predict-sales-for-a-catelog-launch\data\mailinglist.xlsx|||`p1-mailinglist$`" type="V_String" />
+            <Field name="Customer_ID" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\01-predict-sales-for-a-catelog-launch\data\mailinglist.xlsx|||`p1-mailinglist$`" type="Double" />
+            <Field name="Address" size="255" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\01-predict-sales-for-a-catelog-launch\data\mailinglist.xlsx|||`p1-mailinglist$`" type="V_String" />
+            <Field name="City" size="255" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\01-predict-sales-for-a-catelog-launch\data\mailinglist.xlsx|||`p1-mailinglist$`" type="V_String" />
+            <Field name="State" size="255" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\01-predict-sales-for-a-catelog-launch\data\mailinglist.xlsx|||`p1-mailinglist$`" type="V_String" />
+            <Field name="ZIP" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\01-predict-sales-for-a-catelog-launch\data\mailinglist.xlsx|||`p1-mailinglist$`" type="Double" />
+            <Field name="Store_Number" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\01-predict-sales-for-a-catelog-launch\data\mailinglist.xlsx|||`p1-mailinglist$`" type="Double" />
+            <Field name="Avg_Num_Products_Purchased" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\01-predict-sales-for-a-catelog-launch\data\mailinglist.xlsx|||`p1-mailinglist$`" type="Double" />
+            <Field name="#_Years_as_Customer" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\01-predict-sales-for-a-catelog-launch\data\mailinglist.xlsx|||`p1-mailinglist$`" type="Double" />
+            <Field name="Score_No" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\01-predict-sales-for-a-catelog-launch\data\mailinglist.xlsx|||`p1-mailinglist$`" type="Double" />
+            <Field name="Score_Yes" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\01-predict-sales-for-a-catelog-launch\data\mailinglist.xlsx|||`p1-mailinglist$`" type="Double" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
@@ -247,7 +244,7 @@ Table=`p1-mailinglist$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="9">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="246" y="6" />
+        <Position x="294" y="54" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -268,7 +265,7 @@ Table=`p1-mailinglist$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="11">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="438" y="18" />
+        <Position x="486" y="66" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -287,7 +284,7 @@ Table=`p1-mailinglist$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="12">
       <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
-        <Position x="522" y="18" />
+        <Position x="570" y="66" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -305,7 +302,7 @@ Table=`p1-mailinglist$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="13">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="606" y="18" />
+        <Position x="654" y="66" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -324,7 +321,7 @@ Table=`p1-mailinglist$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="14">
       <GuiSettings>
-        <Position x="438" y="126" />
+        <Position x="486" y="174" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -369,19 +366,16 @@ Table=`p1-mailinglist$`</DefaultAnnotationText>
           <DefaultAnnotationText />
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
       </Properties>
       <EngineSettings Macro="Predictive Tools\Scatterplot.yxmc" />
     </Node>
     <Node ToolID="15">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="510" y="174" />
+        <Position x="558" y="222" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\ayumi\AppData\Local\Temp\Engine_104_025b641884984f03950bc7d8aa535a75_\Engine_11384_8089282c5744481ca5631c38daba57b7_.yxdb</TempFile>
+          <TempFile>C:\Users\ayumi\AppData\Local\Temp\Engine_19652_c1dcb1d0693d4a38945afb42833f15a0_\Engine_18516_d2ed529822944635a7d9b7fce6e7bc15_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -405,10 +399,11 @@ Table=`p1-mailinglist$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="17">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="342" y="126" />
+        <Position x="390" y="174" />
       </GuiSettings>
       <Properties>
         <Configuration>
+          <TempFile>C:\Users\ayumi\AppData\Local\Temp\Engine_19652_c1dcb1d0693d4a38945afb42833f15a0_\Engine_18516_74d3f44f0ca44fec824f42bdb10c4a29_.yxdb</TempFile>
           <Layout>
             <View1>
               <Hints>
@@ -498,7 +493,7 @@ Table=`p1-mailinglist$`</DefaultAnnotationText>
     <LayoutType>Horizontal</LayoutType>
     <MetaInfo>
       <NameIsFileName value="True" />
-      <Name>Predict Sales for Catalog Launch</Name>
+      <Name>predict-sales-for-a-catelog-launch</Name>
       <Description />
       <RootToolName />
       <ToolVersion />

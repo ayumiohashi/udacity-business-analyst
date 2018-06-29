@@ -1,4 +1,5 @@
 ## Select the Location of a New Pet Store
+##### This project is WIP.
 A pet store chain is selecting the location for its next store.
 
 Use data preparation techniques to build a robust analytic dataset and use it to build a predictive model to select the best location.

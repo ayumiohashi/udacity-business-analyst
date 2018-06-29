@@ -5,7 +5,7 @@ Project | Description | Methodology
 ------------ | ------------- | -------------
 01 | Predict Sales for a Catalog Launch | Linear Regression
 02 | Select the Location of a New Pet Store (WIP) | Linear Regression
-03 | Predict Loan Default Risk | Classification Models | (Logistic Regression, Decision Tree, Forest and Boosted Models)
+03 | Predict Loan Default Risk | Classification Models (Logistic Regression, Decision Tree, Forest and Boosted Models)
 04 | A/B Text a New Menu Launch | AB Testing
 05 | Forecast Video Game Demand | Forecasting Models (ETS and ARIMA Models)
 06 | Grocery Store Formats And Inventory Planning | &nbsp;

@@ -1,0 +1,750 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="11.7">
+  <Nodes>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\ayumi\Documents\git\udacity-business-analyst\06-grocery-store-formats-and-inventory-planning\data\store-sales-data.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>store-sales-data.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Store" size="254" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\06-grocery-store-formats-and-inventory-planning\data\store-sales-data.csv" type="V_String" />
+            <Field name="Day" size="254" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\06-grocery-store-formats-and-inventory-planning\data\store-sales-data.csv" type="V_String" />
+            <Field name="Month" size="254" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\06-grocery-store-formats-and-inventory-planning\data\store-sales-data.csv" type="V_String" />
+            <Field name="Year" size="254" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\06-grocery-store-formats-and-inventory-planning\data\store-sales-data.csv" type="V_String" />
+            <Field name="Dry_Grocery" size="254" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\06-grocery-store-formats-and-inventory-planning\data\store-sales-data.csv" type="V_String" />
+            <Field name="Dairy" size="254" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\06-grocery-store-formats-and-inventory-planning\data\store-sales-data.csv" type="V_String" />
+            <Field name="Frozen_Food" size="254" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\06-grocery-store-formats-and-inventory-planning\data\store-sales-data.csv" type="V_String" />
+            <Field name="Meat" size="254" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\06-grocery-store-formats-and-inventory-planning\data\store-sales-data.csv" type="V_String" />
+            <Field name="Produce" size="254" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\06-grocery-store-formats-and-inventory-planning\data\store-sales-data.csv" type="V_String" />
+            <Field name="Floral" size="254" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\06-grocery-store-formats-and-inventory-planning\data\store-sales-data.csv" type="V_String" />
+            <Field name="Deli" size="254" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\06-grocery-store-formats-and-inventory-planning\data\store-sales-data.csv" type="V_String" />
+            <Field name="Bakery" size="254" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\06-grocery-store-formats-and-inventory-planning\data\store-sales-data.csv" type="V_String" />
+            <Field name="General_Merchandise" size="254" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\06-grocery-store-formats-and-inventory-planning\data\store-sales-data.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="210" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Year" selected="True" type="String" size="5" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="138" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="Store" selected="True" />
+            <Field field="Day" selected="True" />
+            <Field field="Month" selected="True" />
+            <Field field="Year" selected="True" />
+            <Field field="Dry_Grocery" selected="True" />
+            <Field field="Dairy" selected="True" />
+            <Field field="Frozen_Food" selected="True" />
+            <Field field="Meat" selected="True" />
+            <Field field="Produce" selected="True" />
+            <Field field="Floral" selected="True" />
+            <Field field="Deli" selected="True" />
+            <Field field="Bakery" selected="True" />
+            <Field field="General_Merchandise" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Store" size="5" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\06-grocery-store-formats-and-inventory-planning\data\store-sales-data.csv" type="String" />
+            <Field name="Day" size="2" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\06-grocery-store-formats-and-inventory-planning\data\store-sales-data.csv" type="String" />
+            <Field name="Month" size="2" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\06-grocery-store-formats-and-inventory-planning\data\store-sales-data.csv" type="String" />
+            <Field name="Year" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\06-grocery-store-formats-and-inventory-planning\data\store-sales-data.csv" type="Int16" />
+            <Field name="Dry_Grocery" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\06-grocery-store-formats-and-inventory-planning\data\store-sales-data.csv" type="Double" />
+            <Field name="Dairy" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\06-grocery-store-formats-and-inventory-planning\data\store-sales-data.csv" type="Double" />
+            <Field name="Frozen_Food" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\06-grocery-store-formats-and-inventory-planning\data\store-sales-data.csv" type="Double" />
+            <Field name="Meat" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\06-grocery-store-formats-and-inventory-planning\data\store-sales-data.csv" type="Double" />
+            <Field name="Produce" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\06-grocery-store-formats-and-inventory-planning\data\store-sales-data.csv" type="Double" />
+            <Field name="Floral" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\06-grocery-store-formats-and-inventory-planning\data\store-sales-data.csv" type="Double" />
+            <Field name="Deli" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\06-grocery-store-formats-and-inventory-planning\data\store-sales-data.csv" type="Double" />
+            <Field name="Bakery" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\06-grocery-store-formats-and-inventory-planning\data\store-sales-data.csv" type="Double" />
+            <Field name="General_Merchandise" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\06-grocery-store-formats-and-inventory-planning\data\store-sales-data.csv" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings>
+        <Position x="822" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="the fields">Perc_Dry_Grocery + Perc_Dairy + Perc_Frozen_Food + Perc_Meat + Perc_Produce + Perc_Floral + Perc_Deli + Perc_Bakery + Perc_General_Merchandise</Value>
+          <Value name="standardize">True</Value>
+          <Value name="z score">True</Value>
+          <Value name="unit interval">False</Value>
+          <Value name="k-means">True</Value>
+          <Value name="k-medians">False</Value>
+          <Value name="neural gas">False</Value>
+          <Value name="min clus">2</Value>
+          <Value name="max clus">10</Value>
+          <Value name="bootstrap rep">50</Value>
+          <Value name="num seeds">3</Value>
+          <Value name="inches">True</Value>
+          <Value name="in.w">5.50</Value>
+          <Value name="in.h">5.50</Value>
+          <Value name="centimeters">False</Value>
+          <Value name="cm.w">13.00</Value>
+          <Value name="cm.h">14.95</Value>
+          <Value name="graph.resolution">1x</Value>
+          <Value name="pointsize">10</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\K-Centroids_Diagnostics.yxmc" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="894" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\ayumi\AppData\Local\Temp\Engine_22144_12c6606e0211406ea5049b15f5813ab5_\Engine_17916_acfae5d62b724160afd3d2a920e48c87_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="282" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Field>Year</Field>
+            <Operator>=</Operator>
+            <Operands>
+              <Operand>2015</Operand>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Year] = "2015"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="354" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Store" action="GroupBy" rename="Store" />
+            <SummarizeField field="Dry_Grocery" action="Sum" rename="Sum_Dry_Grocery" />
+            <SummarizeField field="Dairy" action="Sum" rename="Sum_Dairy" />
+            <SummarizeField field="Frozen_Food" action="Sum" rename="Sum_Frozen_Food" />
+            <SummarizeField field="Meat" action="Sum" rename="Sum_Meat" />
+            <SummarizeField field="Produce" action="Sum" rename="Sum_Produce" />
+            <SummarizeField field="Floral" action="Sum" rename="Sum_Floral" />
+            <SummarizeField field="Deli" action="Sum" rename="Sum_Deli" />
+            <SummarizeField field="Bakery" action="Sum" rename="Sum_Bakery" />
+            <SummarizeField field="General_Merchandise" action="Sum" rename="Sum_General_Merchandise" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
+        <Position x="438" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ErrorWarn>Warn</ErrorWarn>
+          <KeyFields>
+            <Field field="Store" />
+          </KeyFields>
+          <DataFields>
+            <Field field="Store" selected="False" />
+            <Field field="Sum_Dry_Grocery" selected="True" />
+            <Field field="Sum_Dairy" selected="True" />
+            <Field field="Sum_Frozen_Food" selected="True" />
+            <Field field="Sum_Meat" selected="True" />
+            <Field field="Sum_Produce" selected="True" />
+            <Field field="Sum_Floral" selected="True" />
+            <Field field="Sum_Deli" selected="True" />
+            <Field field="Sum_Bakery" selected="True" />
+            <Field field="Sum_General_Merchandise" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </DataFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTranspose" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="510" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Store" action="GroupBy" rename="Store" />
+            <SummarizeField field="Value" action="Sum" rename="Sum_Value" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="606" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Store" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Store" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_Store" selected="False" rename="Right_Store" />
+                <SelectField field="Right_Sum_Value" selected="True" rename="Total_Sales" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="678" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="[Sum_Dry_Grocery]/[Total_Sales]" field="Perc_Dry_Grocery" size="8" type="Double" />
+            <FormulaField expression="[Sum_Dairy]/[Total_Sales]" field="Perc_Dairy" size="8" type="Double" />
+            <FormulaField expression="[Sum_Frozen_Food]/[Total_Sales]" field="Perc_Frozen_Food" size="8" type="Double" />
+            <FormulaField expression="[Sum_Meat]/[Total_Sales]" field="Perc_Meat" size="8" type="Double" />
+            <FormulaField expression="[Sum_Produce]/[Total_Sales]" field="Perc_Produce" size="8" type="Double" />
+            <FormulaField expression="[Sum_Floral]/[Total_Sales]" field="Perc_Floral" size="8" type="Double" />
+            <FormulaField expression="[Sum_Deli]/[Total_Sales]" field="Perc_Deli" size="8" type="Double" />
+            <FormulaField expression="[Sum_Bakery]/[Total_Sales]" field="Perc_Bakery" size="8" type="Double" />
+            <FormulaField expression="[Sum_General_Merchandise]/[Total_Sales]" field="Perc_General_Merchandise" size="8" type="Double" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Perc_Dry_Grocery = [Sum_Dry_Grocery]/[Total_Sales]
+Perc_Dairy = [Sum_Dairy]/[Tot...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings>
+        <Position x="798" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="model name">ClusterByCategoryByStore</Value>
+          <Value name="the fields">Perc_Dry_Grocery + Perc_Dairy + Perc_Frozen_Food + Perc_Meat + Perc_Produce + Perc_Floral + Perc_Deli + Perc_Bakery + Perc_General_Merchandise</Value>
+          <Value name="standardize">True</Value>
+          <Value name="z score">True</Value>
+          <Value name="unit interval">False</Value>
+          <Value name="k-means">True</Value>
+          <Value name="k-medians">False</Value>
+          <Value name="neural gas">False</Value>
+          <Value name="num clus">3</Value>
+          <Value name="num seeds">10</Value>
+          <Value name="plot points">True</Value>
+          <Value name="plot centroids">False</Value>
+          <Value name="max comp">2</Value>
+          <Value name="inches">True</Value>
+          <Value name="in.w">5.50</Value>
+          <Value name="in.h">5.50</Value>
+          <Value name="centimeters">False</Value>
+          <Value name="cm.w">13.00</Value>
+          <Value name="cm.h">14.95</Value>
+          <Value name="graph.resolution">1x</Value>
+          <Value name="pointsize">10</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="grp" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="out" size="1073741823" source="R-DATA:" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Reports">
+          <RecordInfo>
+            <Field name="Desc" size="64" source="Formula: (Multiple Sources)" type="V_WString" />
+            <Field name="Report" size="1073741823" source="Report: (Multiple Sources)" type="V_WString" />
+            <Field name="Sum_Dists" size="1073741823" source="R-DATA:" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\K-Centroids_Cluster_Analysis.yxmc" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="870" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\ayumi\AppData\Local\Temp\Engine_22144_12c6606e0211406ea5049b15f5813ab5_\Engine_17916_e11c3651c15740b8bae084987b360e76_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings>
+        <Position x="870" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="clus name">Cluster</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Store" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="Sum_Dry_Grocery" source="R-DATA:" type="Double" />
+            <Field name="Sum_Dairy" source="R-DATA:" type="Double" />
+            <Field name="Sum_Frozen_Food" source="R-DATA:" type="Double" />
+            <Field name="Sum_Meat" source="R-DATA:" type="Double" />
+            <Field name="Sum_Produce" source="R-DATA:" type="Double" />
+            <Field name="Sum_Floral" source="R-DATA:" type="Double" />
+            <Field name="Sum_Deli" source="R-DATA:" type="Double" />
+            <Field name="Sum_Bakery" source="R-DATA:" type="Double" />
+            <Field name="Sum_General_Merchandise" source="R-DATA:" type="Double" />
+            <Field name="Total_Sales" source="R-DATA:" type="Double" />
+            <Field name="Perc_Dry_Grocery" source="R-DATA:" type="Double" />
+            <Field name="Perc_Dairy" source="R-DATA:" type="Double" />
+            <Field name="Perc_Frozen_Food" source="R-DATA:" type="Double" />
+            <Field name="Perc_Meat" source="R-DATA:" type="Double" />
+            <Field name="Perc_Produce" source="R-DATA:" type="Double" />
+            <Field name="Perc_Floral" source="R-DATA:" type="Double" />
+            <Field name="Perc_Deli" source="R-DATA:" type="Double" />
+            <Field name="Perc_Bakery" source="R-DATA:" type="Double" />
+            <Field name="Perc_General_Merchandise" source="R-DATA:" type="Double" />
+            <Field name="Cluster" source="R-DATA:" type="Int32" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Append_Cluster.yxmc" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1026" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">C:\Users\ayumi\Documents\git\udacity-business-analyst\06-grocery-store-formats-and-inventory-planning\data\task1-clusters-result.csv</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>task1-clusters-result.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="750" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Store" selected="True" />
+            <SelectField field="Perc_Dry_Grocery" selected="True" />
+            <SelectField field="Perc_Dairy" selected="True" />
+            <SelectField field="Perc_Frozen_Food" selected="True" />
+            <SelectField field="Perc_Meat" selected="True" />
+            <SelectField field="Perc_Produce" selected="True" />
+            <SelectField field="Perc_Floral" selected="True" />
+            <SelectField field="Perc_Deli" selected="True" />
+            <SelectField field="Perc_Bakery" selected="True" />
+            <SelectField field="Perc_General_Merchandise" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="882" y="342" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\ayumi\Documents\git\udacity-business-analyst\06-grocery-store-formats-and-inventory-planning\data\store-information.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>store-information.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Store" size="254" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\06-grocery-store-formats-and-inventory-planning\data\store-information.csv" type="V_String" />
+            <Field name="Address" size="254" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\06-grocery-store-formats-and-inventory-planning\data\store-information.csv" type="V_String" />
+            <Field name="City" size="254" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\06-grocery-store-formats-and-inventory-planning\data\store-information.csv" type="V_String" />
+            <Field name="State" size="254" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\06-grocery-store-formats-and-inventory-planning\data\store-information.csv" type="V_String" />
+            <Field name="Zip" size="254" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\06-grocery-store-formats-and-inventory-planning\data\store-information.csv" type="V_String" />
+            <Field name="Type" size="254" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\06-grocery-store-formats-and-inventory-planning\data\store-information.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="954" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Store" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Store" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_Sum_Dry_Grocery" selected="False" />
+                <SelectField field="Left_Sum_Dairy" selected="False" />
+                <SelectField field="Left_Sum_Frozen_Food" selected="False" />
+                <SelectField field="Left_Sum_Meat" selected="False" />
+                <SelectField field="Left_Sum_Produce" selected="False" />
+                <SelectField field="Left_Sum_Floral" selected="False" />
+                <SelectField field="Left_Sum_Deli" selected="False" />
+                <SelectField field="Left_Sum_Bakery" selected="False" />
+                <SelectField field="Left_Sum_General_Merchandise" selected="False" />
+                <SelectField field="Left_Perc_Dry_Grocery" selected="False" />
+                <SelectField field="Left_Perc_Dairy" selected="False" />
+                <SelectField field="Left_Perc_Frozen_Food" selected="False" />
+                <SelectField field="Left_Perc_Meat" selected="False" />
+                <SelectField field="Left_Perc_Produce" selected="False" />
+                <SelectField field="Left_Perc_Floral" selected="False" />
+                <SelectField field="Left_Perc_Deli" selected="False" />
+                <SelectField field="Left_Perc_Bakery" selected="False" />
+                <SelectField field="Left_Perc_General_Merchandise" selected="False" />
+                <SelectField field="Right_Store" selected="False" rename="Right_Store" />
+                <SelectField field="Right_Address" selected="False" />
+                <SelectField field="Right_Type" selected="False" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="966" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Cluster" action="GroupBy" rename="Cluster" />
+            <SummarizeField field="Cluster" action="Count" rename="Count" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Reports" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="True" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="19" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="19" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Join" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Output" />
+      <Destination ToolID="21" Connection="Data Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Output" />
+      <Destination ToolID="23" Connection="First Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="23" Connection="Second Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Output" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Reports" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Output" />
+      <Destination ToolID="28" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="Output" />
+      <Destination ToolID="28" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Output" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Output" />
+      <Destination ToolID="7" Connection="Data Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Join" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Task1 Segment Stores</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

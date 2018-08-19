@@ -13,3 +13,5 @@ You’ve been asked to provide a forecast for the next 4 months of sales and rep
 
 ### Tasks
 - Provide a forecast for the next 4 months of sales and report the findings.
+
+### <a href="https://github.com/ayumiohashi/udacity-business-analyst/blob/master/05-forecast-video-game-demand/forecast-and-findings.pdf">Forecast and Findings</a>

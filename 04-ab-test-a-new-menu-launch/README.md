@@ -30,3 +30,5 @@ You have been able to gather three data files to use for your analysis:
 
 ### Tasks
 - Recommend whether the chain should introduce the new menu
+
+### <a href="https://github.com/ayumiohashi/udacity-business-analyst/blob/master/04-ab-test-a-new-menu-launch/results-and-recommendation.pdf">Results and Recommendation</a>

@@ -20,3 +20,5 @@ You have the following information to work with:
 
 ### Tasks
 - Recommend which loan applicants the bank should lend to
+
+### <a href="https://github.com/ayumiohashi/udacity-business-analyst/blob/master/03-predict-loan-default-risk/results-and-recommendation.pdf">Results and Recommendation</a>

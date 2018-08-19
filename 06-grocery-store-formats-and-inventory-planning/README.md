@@ -30,3 +30,5 @@ To remedy the product surplus and shortages, the company wants to introduce diff
 
 ### Task 3: Forecasting Produce Sales
 - Provide a monthly forecast for produce sales for the full year of 2016 for both existing and new stores.
+
+### <a href="https://github.com/ayumiohashi/udacity-business-analyst/blob/master/06-grocery-store-formats-and-inventory-planning/results-and-forecast.pdf">Results and Forecast</a>

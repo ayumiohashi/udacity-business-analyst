@@ -24,3 +24,5 @@ You’ve been asked to predict the expected profit from these 250 new customers.
 ### Tasks
 - Predicted or expected profit
 - Recommendation to whether the company should send the catalog or not.
+
+### <a href="https://github.com/ayumiohashi/udacity-business-analyst/blob/master/01-predict-sales-for-a-catelog-launch/results-and-recommendation.pdf">Results and Recommendation</a>

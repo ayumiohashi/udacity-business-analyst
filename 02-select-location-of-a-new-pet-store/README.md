@@ -34,3 +34,8 @@ Your manager has given you the following information to work with:
 
 ### Tasks
 - Recommend the city for Pawdacity’s newest store, based on predicted yearly sales.
+
+### Results and Recommendation
+<a href="https://github.com/ayumiohashi/udacity-business-analyst/blob/master/02-select-location-of-a-new-pet-store/reports/data-cleanup.pdf">2.1 Data Cleanup</a>
+
+<a href="https://github.com/ayumiohashi/udacity-business-analyst/blob/master/02-select-location-of-a-new-pet-store/reports/recommendation.pdf">2.2 Recommendation</a>

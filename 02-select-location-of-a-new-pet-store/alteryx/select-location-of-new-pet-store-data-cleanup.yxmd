@@ -25,9 +25,6 @@
           <DefaultAnnotationText>pawdacity-monthly-sales.csv</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="NAME" size="254" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\02-select-location-of-a-new-pet-store\data\pawdacity-monthly-sales.csv" type="V_String" />
@@ -76,9 +73,6 @@
           <DefaultAnnotationText>population.csv</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="City|County" size="254" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\02-select-location-of-a-new-pet-store\data\population.csv" type="V_String" />
@@ -114,9 +108,6 @@
           <DefaultAnnotationText>demographic.csv</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="City" size="254" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\02-select-location-of-a-new-pet-store\data\demographic.csv" type="V_String" />
@@ -493,7 +484,7 @@
     </Node>
     <Node ToolID="27">
       <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
-        <Position x="582" y="378" />
+        <Position x="630" y="378" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -537,11 +528,11 @@
     </Node>
     <Node ToolID="29">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="762" y="378" />
+        <Position x="846" y="306" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\ayumi\AppData\Local\Temp\Engine_13976_eeb975dbcbeb4670a42ae728257b21c6_\Engine_18516_515da81da4444585a29e185c837ce329_.yxdb</TempFile>
+          <TempFile>C:\Users\ayumi\AppData\Local\Temp\Engine_10276_d498e088ff804af7b2ac3262dcf1cf84_\Engine_25160_aef8e275a63742ffbaa42b0b557cd5e3_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -842,7 +833,7 @@
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\ayumi\AppData\Local\Temp\Engine_13976_eeb975dbcbeb4670a42ae728257b21c6_\Engine_18516_5d43db2ab7d8436bb0c1bcf05bd96710_.yxdb</TempFile>
+          <TempFile>C:\Users\ayumi\AppData\Local\Temp\Engine_10276_d498e088ff804af7b2ac3262dcf1cf84_\Engine_25160_48a934ae1f764729aaa84ec65cea29bf_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -870,7 +861,7 @@
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\ayumi\AppData\Local\Temp\Engine_13976_eeb975dbcbeb4670a42ae728257b21c6_\Engine_18516_cb42b06c2af643a2bac9febaa547b350_.yxdb</TempFile>
+          <TempFile>C:\Users\ayumi\AppData\Local\Temp\Engine_10276_d498e088ff804af7b2ac3262dcf1cf84_\Engine_25160_9346e31529b84d7d8084ab0b674f4264_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -898,7 +889,7 @@
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\ayumi\AppData\Local\Temp\Engine_13976_eeb975dbcbeb4670a42ae728257b21c6_\Engine_18516_b1b7b713a0bd41b3b8a8973ec807765d_.yxdb</TempFile>
+          <TempFile>C:\Users\ayumi\AppData\Local\Temp\Engine_10276_d498e088ff804af7b2ac3262dcf1cf84_\Engine_25160_51463bf5ddb44b9f9cf3bc865d0151e7_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -926,7 +917,7 @@
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\ayumi\AppData\Local\Temp\Engine_13976_eeb975dbcbeb4670a42ae728257b21c6_\Engine_18516_e58f53c7178a4b2da34bc226531db6a8_.yxdb</TempFile>
+          <TempFile>C:\Users\ayumi\AppData\Local\Temp\Engine_10276_d498e088ff804af7b2ac3262dcf1cf84_\Engine_25160_48182be9e6ef476b8aeedb8a0ec98f40_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -954,7 +945,7 @@
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\ayumi\AppData\Local\Temp\Engine_13976_eeb975dbcbeb4670a42ae728257b21c6_\Engine_18516_4a80877dc6224717afae7d32b117f2ad_.yxdb</TempFile>
+          <TempFile>C:\Users\ayumi\AppData\Local\Temp\Engine_10276_d498e088ff804af7b2ac3262dcf1cf84_\Engine_25160_babc5658f2bb42fb89ba5f9ca03183b9_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -978,7 +969,7 @@
     </Node>
     <Node ToolID="41">
       <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
-        <Position x="654" y="378" />
+        <Position x="630" y="426" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -998,6 +989,32 @@
         </Annotation>
       </Properties>
       <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="45">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="750" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">C:\Users\ayumi\Documents\git\udacity-business-analyst\02-select-location-of-a-new-pet-store\data\cleaned-data.csv</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>cleaned-data.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
     </Node>
   </Nodes>
   <Connections>
@@ -1094,6 +1111,10 @@
       <Destination ToolID="41" Connection="Input" />
     </Connection>
     <Connection>
+      <Origin ToolID="25" Connection="Join" />
+      <Destination ToolID="45" Connection="Input" />
+    </Connection>
+    <Connection>
       <Origin ToolID="28" Connection="Interactive" />
       <Destination ToolID="29" Connection="Input" />
     </Connection>
@@ -1136,7 +1157,7 @@
     <LayoutType>Horizontal</LayoutType>
     <MetaInfo>
       <NameIsFileName value="True" />
-      <Name>select-location-of-new-pet-store</Name>
+      <Name>select-location-of-new-pet-store-data-cleanup</Name>
       <Description />
       <RootToolName />
       <ToolVersion />

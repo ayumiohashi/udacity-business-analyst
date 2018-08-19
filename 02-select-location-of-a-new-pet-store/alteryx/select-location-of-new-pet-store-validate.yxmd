@@ -1,0 +1,455 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="11.7">
+  <Nodes>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="42" y="30" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\ayumi\Documents\git\udacity-business-analyst\02-select-location-of-a-new-pet-store\data\cleaned-data.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>cleaned-data.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="City" size="254" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\02-select-location-of-a-new-pet-store\data\cleaned-data.csv" type="V_String" />
+            <Field name="2010 Census Population" size="254" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\02-select-location-of-a-new-pet-store\data\cleaned-data.csv" type="V_String" />
+            <Field name="Total Pawdacity Sales" size="254" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\02-select-location-of-a-new-pet-store\data\cleaned-data.csv" type="V_String" />
+            <Field name="Households with Under 18" size="254" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\02-select-location-of-a-new-pet-store\data\cleaned-data.csv" type="V_String" />
+            <Field name="Land Area" size="254" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\02-select-location-of-a-new-pet-store\data\cleaned-data.csv" type="V_String" />
+            <Field name="Population Density" size="254" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\02-select-location-of-a-new-pet-store\data\cleaned-data.csv" type="V_String" />
+            <Field name="Total Families" size="254" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\02-select-location-of-a-new-pet-store\data\cleaned-data.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="138" y="30" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="City" selected="True" />
+            <Field field="2010 Census Population" selected="True" />
+            <Field field="Total Pawdacity Sales" selected="True" />
+            <Field field="Households with Under 18" selected="True" />
+            <Field field="Land Area" selected="True" />
+            <Field field="Population Density" selected="True" />
+            <Field field="Total Families" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="City" size="12" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\02-select-location-of-a-new-pet-store\data\cleaned-data.csv" type="String" />
+            <Field name="2010 Census Population" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\02-select-location-of-a-new-pet-store\data\cleaned-data.csv" type="Int32" />
+            <Field name="Total Pawdacity Sales" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\02-select-location-of-a-new-pet-store\data\cleaned-data.csv" type="Int32" />
+            <Field name="Households with Under 18" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\02-select-location-of-a-new-pet-store\data\cleaned-data.csv" type="Int16" />
+            <Field name="Land Area" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\02-select-location-of-a-new-pet-store\data\cleaned-data.csv" type="Int16" />
+            <Field name="Population Density" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\02-select-location-of-a-new-pet-store\data\cleaned-data.csv" type="Byte" />
+            <Field name="Total Families" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\02-select-location-of-a-new-pet-store\data\cleaned-data.csv" type="Int16" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="234" y="30" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Field>City</Field>
+            <Operator>=</Operator>
+            <Operands>
+              <Operand>Laramie</Operand>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[City] = "Laramie"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="522" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Field>City</Field>
+            <Operator>=</Operator>
+            <Operands>
+              <Operand>Laramie</Operand>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[City] = "Laramie"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="42" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\ayumi\Documents\git\udacity-business-analyst\02-select-location-of-a-new-pet-store\data\population.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>population.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="City|County" size="254" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\02-select-location-of-a-new-pet-store\data\population.csv" type="V_String" />
+            <Field name="2014 Estimate" size="254" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\02-select-location-of-a-new-pet-store\data\population.csv" type="V_String" />
+            <Field name="2010 Census" size="254" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\02-select-location-of-a-new-pet-store\data\population.csv" type="V_String" />
+            <Field name="2000 Census" size="254" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\02-select-location-of-a-new-pet-store\data\population.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="270" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="Replace([2014 Estimate], &quot;&lt;td&gt;&quot;, &quot;&quot;)" field="2014 Estimate" size="254" type="V_String" />
+            <FormulaField expression="Replace([2014 Estimate], &quot;&lt;/td&gt;&quot;, &quot;&quot;)" field="2014 Estimate" size="254" type="V_String" />
+            <FormulaField expression="ReplaceChar([CityCounty1], &quot;?&quot;, &quot;&quot;)" field="CityCounty1" size="254" type="V_String" />
+            <FormulaField expression="ReplaceChar([CityCounty1], &quot; &quot;, &quot;&quot;)" field="CityCounty1" size="254" type="V_String" />
+            <FormulaField expression="ReplaceChar([2010 Census], &quot;,&quot;, &quot;&quot;)" field="2010 Census" size="254" type="V_String" />
+            <FormulaField expression="Left([2010 Census], FindString([2010 Census], &quot;&lt;&quot;))" field="2010 Census" size="254" type="V_String" />
+            <FormulaField expression="IF [CityCounty1] = &quot;RockSprings&quot; THEN &quot;Rock Springs&quot; ELSE [CityCounty1] ENDIF" field="CityCounty1" size="254" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>2014 Estimate = Replace([2014 Estimate], "&lt;td&gt;", "")
+2014 Estimate = Replace([20...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+        <Position x="198" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>City|County</Field>
+          <NumFields value="2" />
+          <ErrorHandling>Last</ErrorHandling>
+          <RootName>CityCounty</RootName>
+          <Delimeters value="|" />
+          <Flags value="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="354" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="City|County" selected="False" />
+            <SelectField field="2010 Census" selected="False" />
+            <SelectField field="2000 Census" selected="False" />
+            <SelectField field="CityCounty1" selected="True" rename="City" />
+            <SelectField field="CityCounty2" selected="True" rename="Country" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="438" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="2014 Estimate" selected="True" />
+            <Field field="2010 Census" selected="True" />
+            <Field field="2000 Census" selected="True" />
+            <Field field="City" selected="True" />
+            <Field field="Country" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="2014 Estimate" size="6" source="Formula: Replace([2014 Estimate], &quot;&lt;/td&gt;&quot;, &quot;&quot;)" type="String" />
+            <Field description="TextToColumns: Parsed from City|County" name="City" size="15" source="Formula: IF [CityCounty1] = &quot;RockSprings&quot; THEN &quot;Rock Springs&quot; ELSE [CityCounty1] ENDIF" type="V_String" />
+            <Field description="TextToColumns: Parsed from City|County" name="Country" size="11" source="TextToColumns: Parsed from City|County" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="114" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Field>City|County</Field>
+            <Operator>IsNotNull</Operator>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>!IsNull([City|County])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="42" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\ayumi\Documents\git\udacity-business-analyst\02-select-location-of-a-new-pet-store\data\competitor-sales.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>competitor-sales.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="BUSINESS NAME" size="254" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\02-select-location-of-a-new-pet-store\data\competitor-sales.csv" type="V_String" />
+            <Field name="PHYSICAL CITY NAME" size="254" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\02-select-location-of-a-new-pet-store\data\competitor-sales.csv" type="V_String" />
+            <Field name="SALES VOLUME" size="254" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\02-select-location-of-a-new-pet-store\data\competitor-sales.csv" type="V_String" />
+            <Field name="CASS_LastLine" size="254" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\02-select-location-of-a-new-pet-store\data\competitor-sales.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="138" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="BUSINESS NAME" selected="True" />
+            <Field field="PHYSICAL CITY NAME" selected="True" />
+            <Field field="SALES VOLUME" selected="True" />
+            <Field field="CASS_LastLine" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="BUSINESS NAME" size="29" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\02-select-location-of-a-new-pet-store\data\competitor-sales.csv" type="V_String" />
+            <Field name="PHYSICAL CITY NAME" size="12" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\02-select-location-of-a-new-pet-store\data\competitor-sales.csv" type="String" />
+            <Field name="SALES VOLUME" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\02-select-location-of-a-new-pet-store\data\competitor-sales.csv" type="Int32" />
+            <Field name="CASS_LastLine" size="27" source="File: C:\Users\ayumi\Documents\git\udacity-business-analyst\02-select-location-of-a-new-pet-store\data\competitor-sales.csv" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="234" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Field>PHYSICAL CITY NAME</Field>
+            <Operator>=</Operator>
+            <Operands>
+              <Operand>Laramie</Operand>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[PHYSICAL CITY NAME] = "Laramie"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="True" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>select-location-of-new-pet-store-validate</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
